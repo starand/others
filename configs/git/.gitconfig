@@ -1,0 +1,41 @@
+[user]
+	name = Andriy.Starodub
+	email = Andriy.Starodub@eleks.com
+[core]
+	autocrlf = true
+	safesrlf = true
+	editor = \"C:/pfiles/GitExtensions/GitExtensions.exe\" fileeditor
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | [%an] %s%d\" --graph --date=short
+	type = cat-file -t
+[merge]
+	tool = kdiff3
+[diff]
+	guitool = kdiff3
+[credential]
+	helper = !'C:\\Users\\Andriy.Starodub\\AppData\\Roaming\\GitCredStore\\git-credential-winstore.exe'
+[mergetool "kdiff3"]
+	path = C:/pfiles/KDiff3/kdiff3.exe
+[difftool "kdiff3"]
+	path = C:/pfiles/KDiff3/kdiff3.exe
+
+[color]
+    ui = true
+    status = auto
+	sh = auto
+
+[color "status"]
+    added =  bold green
+    changed = bold red
+    untracked = bold magenta
+    deleted = red
+
+[color "diff"]
+	old = bold red
+	new = bold green
+[color "sh"]
+	branch = yellow
