@@ -7,8 +7,8 @@ git pull
 cd ..\php
 echo Getting PHP sourcs ..
 git pull
-cd ..\others\
-echo Getting Others folder  ..
+cd ..\etc\
+echo Getting etc ..
 git pull
 
 rem return back
