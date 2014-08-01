@@ -1,3 +1,3 @@
 syntax on
-
 set number
+
